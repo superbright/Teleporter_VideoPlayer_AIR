@@ -305,7 +305,7 @@ package
 			stage.addChild(backSprite);	// bring to front
 			currentStream.ns.soundTransform = new SoundTransform(0);
 			nextStream.ns.soundTransform = new SoundTransform(1);
-			tl.append(new TweenMax(backSprite, 0.2, { alpha:1.0,
+			tl.append(new TweenMax(backSprite, 3, { alpha:1.0,
 				onComplete:function():void {
 					trace("on complete");
 					stage.removeChild(frontSprite);
