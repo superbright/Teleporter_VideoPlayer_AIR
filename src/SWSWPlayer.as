@@ -101,7 +101,7 @@ package
 			stage.addEventListener(KeyboardEvent.KEY_DOWN, keyDown);
 			
 			// setup tcp server
-			serverSocket.bind(9000);
+			serverSocket.bind(88);
 			serverSocket.addEventListener(ServerSocketConnectEvent.CONNECT, onConnect);
 			serverSocket.listen();
 			
